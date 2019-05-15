@@ -10,8 +10,8 @@
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/style2.css">  
+        <!-- <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style2.css">   -->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -37,35 +37,46 @@
     <div>
     
    <section class="container">
-        <h1 class="aboutme">
+        <h1 class="row" class="aboutme">
+            <div class="col-lg-3" class="col-md-6" class="col-sm-12">
             Portfolio
+            </div>
         </h1>
-        <div class="container">
+        <div class="container" class="mx-auto">
             <div class="row">
-                <img class="col-lg-3" class="col-md-6" class="col-sm-12" id="image1" src="images/image1.jpeg" width="200" height="150">
-                    <!-- <div class="col-6" id="hangman">
-                    Hangman
-                    </div> -->
-                <img class="col-lg-3" class="col-md-6" class="col-sm-12" id="image2" src="images/image2.jpeg" width="200" height="150">
-                    <!-- <div class="container" id="rpggame">
-                    RPG Game
-                    </div> -->
+                <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
+                    <img id="image1" src="images/image1.jpeg" width="200" height="150">
+                        <div class="card-img-overlay center" class="col-6" id="hangman">
+                        Hangman
+                        </div>
+                </div>
+                <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
+                    <img id="image2" src="images/image2.jpeg" width="200" height="150">
+                        <div class="card-img-overlay center" class="col-6" id="rpggame">
+                        RPG Game
+                        </div>
+                </div>
             </div>
             <div class="row">
-                <img class="col-lg-3" class="col-md-6" class="col-sm-12" id="image3" src="images/image3.jpeg" width="200" height="150">
-                    <!-- <div class="container" id="triviagame">
-                    Trivia Game
-                    </div> -->
-                <img class="col-lg-3" class="col-md-6" class="col-sm-12" id="image5" src="images/image5.jpeg" width="200" height="150">
-                    <!-- <div class="container" id="rutgersinfowidget">
-                    Rutgers Info Widget
-                    </div> -->
+                <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
+                    <img id="image3" src="images/image3.jpeg" width="200" height="150">
+                        <div class="card-img-overlay center" id="triviagame">
+                        Trivia Game
+                        </div>
+                </div>
+                <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
+                    <img id="image5" src="images/image5.jpeg" width="200" height="150">
+                        <div class="card-img-overlay center" id="rutgersinfowidget">
+                        Rutgers Info Widget
+                        </div>
+                </div>
             </div>
             <div class="row">
-                <img class="col-lg-3" class="col-md-6" class="col-sm-12" id="image4" src="images/image4.jpeg" width="200" height="150">
-                    <!-- <div class="container" id="rockpaperscissors">
-                    Rock Paper Scissors 
-                    </div> -->
+                <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12"> 
+                    <img id="image4" src="images/image4.jpeg" width="200" height="150">
+                        <div class="card-img-overlay center" id="rockpaperscissors">
+                        Rock Paper Scissors 
+                        </div>
             </div>
         </div>
         
