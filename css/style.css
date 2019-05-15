@@ -1,4 +1,4 @@
-.heading{
+/* .heading{
     background-color: white;
     position: absolute;
     top: 0px;
@@ -55,14 +55,14 @@ span{
     height: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
-}
+} */
 
 .background{
     background-image:url("../images/cork-wallet/cork-wallet.png");
     background-size: cover;
 }
 
-footer{
+/* footer{
     height: 50px;
     width: 100%;
     background-color: #666666;
@@ -95,5 +95,5 @@ footer{
     border: none;
     background: none;
     color: #777777;
-}
+} */
 
