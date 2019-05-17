@@ -15,70 +15,78 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
     </head>
 
 <body class="background">
-    <div class="container">
-        <div class="heading" class="row">
-                <h1 class="name" class="col-lg-3" class="col-md-6" class="col-sm-12">
-                        Matthew Whittle 
-                            <span class="float-right" class="col-lg-3" class="col-md-6" class="col-sm-12">                           
-                                    <button onclick='window.location = "index.html"' class="button1">About</button>
-                                    <button onclick='window.location = "portfolio.html"' class="button2">Portfolio</button>
-                                    <button onclick='window.location = "contact.html"' class="button3">Contact</button>
-                            </span>
-                </h1>
-        </div>
-    </div>
 
-    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="col-lg-2 col-md-0 col-sm-0"></a>
+                <a class="navbar-brand text-white mt-2 p-4 col-lg-2 col-md-2 col-sm-4" style="width:auto" href="index.html" id="name">Matthew Whittle</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto mr-5">
+                    <li class="nav-item">
+                      <a class="nav-link border-right" href="index.html">About Me<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link border-right" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
     
-   <section class="container" class="mx-auto">
-        <h1 class="aboutme">
-            Portfolio         
-        </h1>
-        <div class="container">
-            <div class="row">
-                <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
-                    <img id="image1" src="images/image1.jpeg" width="200" height="150">
-                        <div class="btn btn-primary" class="card-img-overlay center" class="col-6" id="hangman">
-                        Hangman
+    <div class="container vertical-center bg-light">
+            <div class="jumbotron bg-light">
+                <h1 class="display-5" id="Portfolio">Portfolio</h1>
+                    <div class="row">
+                            <a class="col-lg-1 col-md-1 col-sm-0"></a>
+                            <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
+                                <img id="image1" src="images/image1.jpeg" width="200" height="150" class="mt-4">
+                                    <div class="btn btn-primary" class="card-img-overlay center" class="col-6" id="hangman">
+                                    Hangman
+                                    </div>
+                            </div>
+                            <a class="col-lg-1 col-md-1 col-sm-0"></a>
+                            <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
+                                <img id="image2" src="images/image2.jpeg" width="200" height="150" class="mt-4">
+                                    <div class="btn" class="card-img-overlay center" class="col-6" id="rpggame">
+                                    RPG Game
+                                    </div>
+                            </div>
                         </div>
-                </div>
-                <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
-                    <img id="image2" src="images/image2.jpeg" width="200" height="150">
-                        <div class="btn btn-primary" class="card-img-overlay center" class="col-6" id="rpggame">
-                        RPG Game
+                        <div class="row">
+                            <a class="col-lg-1 col-md-1 col-sm-0"></a>
+                            <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
+                                <img id="image3" src="images/image3.jpeg" width="200" height="150" class="mt-4">
+                                    <div class="btn btn-primary" class="card-img-overlay center" id="triviagame">
+                                    Trivia Game
+                                    </div>
+                            </div>
+                            <a class="col-lg-1 col-md-1 col-sm-0"></a>
+                            <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
+                                <img id="image5" src="images/image5.jpeg" width="200" height="150" class="mt-4">
+                                    <div class="btn btn-primary" class="card-img-overlay center" id="rutgersinfowidget">
+                                    Rutgers Info Widget
+                                    </div>
+                            </div>
                         </div>
-                </div>
+                        <div class="row">
+                            <a class="col-lg-1 col-md-1 col-sm-0"></a>
+                            <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12"> 
+                                <img id="image4" src="images/image4.jpeg" width="200" height="150" class="mt-4">
+                                    <div class="btn btn-primary" class="card-img-overlay center" id="rockpaperscissors">
+                                    Rock Paper Scissors 
+                                    </div>
+                        </div>  
             </div>
-            <div class="row">
-                <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
-                    <img id="image3" src="images/image3.jpeg" width="200" height="150">
-                        <div class="btn btn-primary" class="card-img-overlay center" id="triviagame">
-                        Trivia Game
-                        </div>
-                </div>
-                <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12">
-                    <img id="image5" src="images/image5.jpeg" width="200" height="150">
-                        <div class="btn btn-primary" class="card-img-overlay center" id="rutgersinfowidget">
-                        Rutgers Info Widget
-                        </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card" class="col-lg-3" class="col-md-6" class="col-sm-12"> 
-                    <img id="image4" src="images/image4.jpeg" width="200" height="150">
-                        <div class="btn btn-primary" class="card-img-overlay center" id="rockpaperscissors">
-                        Rock Paper Scissors 
-                        </div>
-            </div>
-        </div>
-        
-   </section>
 
         <footer>
             <p>

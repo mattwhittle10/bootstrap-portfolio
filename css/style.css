@@ -7,19 +7,19 @@
     height: 72px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
-}
+} */
 
-.name{
-    width: 340px;
-    height: 50px;
+#name{
+    /* width: 340px;
+    height: 50px; */
     background-color:#4aaaa5;
     color: white;
     border:1px solid #dddddd;
-    position: fixed;
-    top: 2px;
-    left: 16.5%;
+    /* position: fixed; */
+    /* top: 2px; */
+    /* left: 16.5%; */
     text-align: center;  
-    line-height: 50px;
+    /* line-height: 50px; */
 }
 
 span{
@@ -42,11 +42,23 @@ span{
 }
 
 #image{
-    float:left;
     margin: 10px;
 }
 
-.aboutme{
+#Portfolio{
+    margin-top: -60px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+    color:#4aaaa5;
+    border-bottom: 3px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#aboutme{
     margin-bottom: 10px;
     color:#4aaaa5;
     border-bottom: 3px solid #cccccc;
@@ -55,14 +67,14 @@ span{
     height: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
-} */
+}
 
 .background{
     background-image:url("../images/cork-wallet/cork-wallet.png");
     background-size: cover;
 }
 
-/* footer{
+footer{
     height: 50px;
     width: 100%;
     background-color: #666666;
@@ -95,5 +107,5 @@ span{
     border: none;
     background: none;
     color: #777777;
-} */
+}
 
